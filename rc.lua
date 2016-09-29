@@ -27,7 +27,7 @@ editor_cmd = terminal .. " -e " .. editor
 configpath="/home/"..os.getenv("USER").."/.config/awesome/"
 
 -- THEME
-beautiful.init(configpath .. "/themes/default/theme.lua")
+beautiful.init(configpath .. "/theme/theme.lua")
 
 
 -- KEYBINDED COMMANDS (see settings/custom_binds.lua)
