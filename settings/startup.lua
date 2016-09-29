@@ -1,0 +1,12 @@
+require("lib.run_once")
+local awful = require("awful")
+
+--run_once("firefox")
+run_once("compton -bfzcCG --backend glx --vsync opengl-swc --paint-on-overlay -D5 -r6 -l-8 -t-8")
+run_once("xfsettingsd")
+run_once("nm-applet")
+run_once("cbatticon", "cbatticon -u 20 -c poweroff -l 15 -r 3")
+run_once("thunderbird")
+run_once("pidgin")
+run_once("urxvtd","urxvtd --quiet --opendisplay --fork")
+run_once("gnome-keyring-daemon")
